@@ -1,4 +1,27 @@
-# README for Gundam TCG Deck Database/Builder
+# Gundam TCG Deck Builder (Prototype)
+
+## Project Description
+
+A prototype web application for Gundam Trading Card Game enthusiasts to search cards and build decks. This is an early-stage project built with Laravel and Livewire.
+
+### Current Features
+- Welcome page with Gundam-themed design
+- Basic card search interface
+- Simple deck builder prototype
+- Dark space-themed UI
+- Responsive design
+
+### Technology Stack
+- **Backend**: Laravel with Livewire
+- **Frontend**: Tailwind CSS (CDN)
+- **Database**: SQLite
+- **Styling**: Dark theme with Gundam aesthetics
+
+### Future Plans
+- Complete card database
+- Advanced search filters
+- Deck validation and optimization
+- User accounts and deck saving
 
 ## Prerequisites
 - PHP 8.1 or higher
