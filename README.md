@@ -1,1 +1,1 @@
-read me for gundam tcg deck database/builder
+# README for Gundam TCG Deck Database/Builder
