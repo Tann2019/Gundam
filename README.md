@@ -53,7 +53,16 @@ php artisan migrate
 php artisan serve
 ```
 
-OR INSTALL HERD AND SAVE YOURSEFL A HEADACHE
+**Alternative:** Install [Laravel Herd](https://herd.laravel.com/) for a simplified development environment.
+
+## Recommended VS Code Extensions
+- Laravel
+- Laravel Blade Formatter
+- Laravel Blade Snippets
+- Laravel Goto View
+- Laravel Snippets
+- Material Icon Theme
+- PHP Intelephense
 
 
 The application will be available at http://localhost:8000
