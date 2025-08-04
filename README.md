@@ -26,6 +26,8 @@ A prototype web application for Gundam Trading Card Game enthusiasts to search c
 ## Prerequisites
 - PHP 8.1 or higher
   - NOTE: You will need to enable extension=fileinfo and extension=zip in the php.ini file
+- ensure you have a .env file in the root of your project
+  - NOTE: You will need to run "php artisan key:generate" before you will be able to run the server locally
 - MySQL or PostgreSQL
 - Git
 
