@@ -97,6 +97,21 @@ return [
             'sslmode' => 'prefer',
         ],
 
+        'mongodb' => [
+            'driver' => 'mongodb',
+            'dsn' => env('MONGODB_URI'), // For Atlas connection string
+            'host' => env('MONGODB_HOST', '127.0.0.1'),
+            'port' => env('MONGODB_PORT', 27017),
+            'database' => env('MONGODB_DATABASE', 'gundam_deck'),
+            'username' => env('MONGODB_USERNAME'),
+            'password' => env('MONGODB_PASSWORD'),
+            'options' => [
+                'appName' => env('APP_NAME', 'Laravel'),
+                'retryWrites' => true,
+                'w' => 'majority',
+            ],
+        ],
+
         'sqlsrv' => [
             'driver' => 'sqlsrv',
             'url' => env('DB_URL'),
